@@ -31,7 +31,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -41,7 +41,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -51,7 +51,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -64,7 +64,7 @@ class _ChessBoardState extends State<ChessBoard> {
                     ],
                   ),
                   Row(children: [
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -74,7 +74,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -84,7 +84,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -94,7 +94,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -112,7 +112,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -122,7 +122,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -132,7 +132,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -145,7 +145,7 @@ class _ChessBoardState extends State<ChessBoard> {
                     ],
                   ),
                   Row(children: [
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -155,7 +155,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -165,7 +165,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -175,7 +175,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -193,7 +193,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -203,7 +203,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -213,7 +213,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -226,7 +226,7 @@ class _ChessBoardState extends State<ChessBoard> {
                     ],
                   ),
                   Row(children: [
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -236,7 +236,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -246,7 +246,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -256,7 +256,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -274,7 +274,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -284,7 +284,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -294,7 +294,7 @@ class _ChessBoardState extends State<ChessBoard> {
                         height: 42,
                         color: Colors.black,
                       ),
-                      SizedBox(
+                      Container(
                         width: 42,
                         height: 42,
                         //color: Colors.black,
@@ -307,7 +307,7 @@ class _ChessBoardState extends State<ChessBoard> {
                     ],
                   ),
                   Row(children: [
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -317,7 +317,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -327,7 +327,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,
@@ -337,7 +337,7 @@ class _ChessBoardState extends State<ChessBoard> {
                       height: 42,
                       color: Colors.black,
                     ),
-                    SizedBox(
+                    Container(
                       width: 42,
                       height: 42,
                       // color: Colors.black,

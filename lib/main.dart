@@ -1,4 +1,5 @@
 import 'package:demo/Circle.dart';
+import 'package:demo/loginPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        useMaterial3: debugHighlightDeprecatedWidgets = true,
       ),
-      home: Circle(),
+      home: LoginPage(),
     );
   }
 }
