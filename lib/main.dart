@@ -1,5 +1,6 @@
-import 'package:demo/Circle.dart';
-import 'package:demo/loginPage.dart';
+//import 'package:demo/Circle.dart';
+//import 'package:demo/loginPage2.dart';
+import 'package:demo/signupPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: debugHighlightDeprecatedWidgets = true,
       ),
-      home: LoginPage(),
+      home: SignUp(),
     );
   }
 }
