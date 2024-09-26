@@ -17,6 +17,16 @@ class _LoginPageState extends State<Loginpage2> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            ClipOval(
+              child: Container(
+                height: 100,
+                width: 100,
+                child: Image.asset(
+                  "assets/pngwing.com (2).png",
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
             Text(
               "Welcome Back",
               style: TextStyle(
@@ -96,18 +106,23 @@ class _LoginPageState extends State<Loginpage2> {
             SizedBox(
               height: 50,
             ),
-            Text(
-              "Dont have an account ?",
-              style: TextStyle(fontWeight: FontWeight.bold),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Dont have an account ?",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Sign Up",
+                      style: TextStyle(
+                          color: const Color.fromARGB(255, 179, 12, 134),
+                          fontWeight: FontWeight.bold),
+                    ))
+              ],
             ),
-            TextButton(
-                onPressed: () {},
-                child: Text(
-                  "Sign Up",
-                  style: TextStyle(
-                      color: const Color.fromARGB(255, 179, 12, 134),
-                      fontWeight: FontWeight.bold),
-                ))
           ],
         ),
       ),

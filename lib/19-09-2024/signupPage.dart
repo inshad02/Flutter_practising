@@ -154,16 +154,21 @@ class _SignUpState extends State<SignUp> {
             SizedBox(
               height: 40,
             ),
-            Text("Already have an account ?"),
-            TextButton(
-                onPressed: () {},
-                child: Text(
-                  "Login",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 179, 12, 134),
-                  ),
-                ))
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("Already have an account ?"),
+                TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Login",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 179, 12, 134),
+                      ),
+                    ))
+              ],
+            ),
           ],
         ),
       ),
