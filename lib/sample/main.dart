@@ -9,6 +9,7 @@ import 'package:demo/LeafBord/signUp.dart';
 import 'package:demo/LeafBord/startPage.dart';
 import 'package:demo/Validation/validation.dart';
 import 'package:demo/Validation/home.dart';
+import 'package:demo/booking/startPage.dart';
 import 'package:demo/greenHub/SignUpPage.dart';
 import 'package:demo/greenHub/addPlants.dart';
 import 'package:demo/greenHub/cart.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       // home:Monstera(),
       // home: Cart(),
       // home: AddPlants(),
-      home: MyProfile(),
+      home: StartPageBooking(),
     );
   }
 }

@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:demo/LeafBord/signUp.dart';
 import 'package:flutter/material.dart';
 
 class StartPage extends StatefulWidget {
@@ -67,7 +68,10 @@ class _StartPageState extends State<StartPage> {
             height: 180,
           ),
           ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => SignUpLeaf()));
+              },
               style: ButtonStyle(
                   backgroundColor: WidgetStatePropertyAll(
                       Color.fromARGB(255, 107, 242, 111))),
