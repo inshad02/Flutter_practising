@@ -2,6 +2,8 @@
 //import 'package:demo/loginPage2.dart';
 // ignore_for_file: unused_import, prefer_const_constructors
 
+import 'package:demo/07-10-2024/alertBox.dart';
+import 'package:demo/07-10-2024/profile.dart';
 import 'package:demo/19-09-2024/loginPage2.dart';
 import 'package:demo/19-09-2024/signupPage.dart';
 import 'package:demo/LeafBord/homePage.dart';
@@ -16,8 +18,8 @@ import 'package:demo/greenHub/cart.dart';
 import 'package:demo/greenHub/loginPage.dart';
 import 'package:demo/greenHub/monstera.dart';
 import 'package:demo/greenHub/products.dart';
-import 'package:demo/homePage.dart';
-import 'package:demo/image.dart';
+// import 'package:demo/homePage.dart';
+// import 'package:demo/image.dart';
 import 'package:demo/profile/profile.dart';
 import 'package:demo/route_demo/homepage.dart';
 import 'package:demo/toggle_button/togglebutton.dart';
@@ -45,7 +47,7 @@ class MyApp extends StatelessWidget {
       // home:Monstera(),
       // home: Cart(),
       // home: AddPlants(),
-      home: StartPageBooking(),
+      home: Profile(),
     );
   }
 }
