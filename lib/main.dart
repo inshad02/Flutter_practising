@@ -4,6 +4,8 @@
 
 import 'package:demo/07-10-2024/alertBox.dart';
 import 'package:demo/07-10-2024/profile.dart';
+import 'package:demo/08-10-20224/homeScreen.dart';
+import 'package:demo/09-10-2024/sharedPrefrence.dart';
 import 'package:demo/19-09-2024/loginPage2.dart';
 import 'package:demo/19-09-2024/signupPage.dart';
 import 'package:demo/LeafBord/homePage.dart';
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -47,7 +49,7 @@ class MyApp extends StatelessWidget {
       // home:Monstera(),
       // home: Cart(),
       // home: AddPlants(),
-      home: Profile(),
+      home: ColorSelect(),
     );
   }
 }
