@@ -14,6 +14,8 @@ import 'package:demo/LeafBord/signUp.dart';
 import 'package:demo/LeafBord/startPage.dart';
 import 'package:demo/Validation/validation.dart';
 import 'package:demo/Validation/home.dart';
+import 'package:demo/api/homePage.dart';
+import 'package:demo/api2/ui.dart';
 import 'package:demo/booking/startPage.dart';
 import 'package:demo/chatApp/chatsPage.dart';
 import 'package:demo/chatApp/homePage.dart';
@@ -57,7 +59,7 @@ class MyApp extends StatelessWidget {
       // home:Monstera(),
       // home: Cart(),
       // home: ChatPage(),
-      home: ProfileUi(),
+      home: Uipage(),
     );
   }
 }
